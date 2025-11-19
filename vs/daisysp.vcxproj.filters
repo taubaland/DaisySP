@@ -38,15 +38,39 @@
     <Filter Include="VisualGDB settings">
       <UniqueIdentifier>{dcaa4877-93c2-45a8-ba04-3674acdee9e6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Sampling">
+      <UniqueIdentifier>{523d6f6a-0e86-4f69-8f1c-1544fe8cf97a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daisysp-lgpl">
+      <UniqueIdentifier>{eb20538b-106a-4cfa-a320-bbd4e6458dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daisysp-lgpl\Control">
+      <UniqueIdentifier>{0e47db9c-b25e-4558-90d9-dc51631bbb81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daisysp-lgpl\Dynamics">
+      <UniqueIdentifier>{e2bc503c-52b9-4ba6-bbce-e8e384ee969a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daisysp-lgpl\Effects">
+      <UniqueIdentifier>{4628e194-1b8e-4fa9-b856-27eae21d2731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daisysp-lgpl\Filters">
+      <UniqueIdentifier>{f0973d6a-1d2b-4b28-b7ed-d515e7ed0d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daisysp-lgpl\PhysicalModeling">
+      <UniqueIdentifier>{bb2fced8-bde3-4423-8de9-99625e66dbb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daisysp-lgpl\Synthesis">
+      <UniqueIdentifier>{8d39114a-30c5-4dae-ab83-39ac0832b64d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="daisysp-lgpl\Utility">
+      <UniqueIdentifier>{16e4d77a-686f-4003-b37a-9debf0151f1f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Source\Control\adenv.cpp">
       <Filter>Control</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Control\adsr.cpp">
-      <Filter>Control</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Control\line.cpp">
       <Filter>Control</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Control\phasor.cpp">
@@ -67,12 +91,6 @@
     <ClCompile Include="..\Source\Drums\synthsnaredrum.cpp">
       <Filter>Drums</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\Dynamics\balance.cpp">
-      <Filter>Dynamics</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Dynamics\compressor.cpp">
-      <Filter>Dynamics</Filter>
-    </ClCompile>
     <ClCompile Include="..\Source\Dynamics\crossfade.cpp">
       <Filter>Dynamics</Filter>
     </ClCompile>
@@ -82,19 +100,10 @@
     <ClCompile Include="..\Source\Effects\autowah.cpp">
       <Filter>Effects</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\Effects\bitcrush.cpp">
-      <Filter>Effects</Filter>
-    </ClCompile>
     <ClCompile Include="..\Source\Effects\decimator.cpp">
       <Filter>Effects</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\Effects\fold.cpp">
-      <Filter>Effects</Filter>
-    </ClCompile>
     <ClCompile Include="..\Source\Effects\overdrive.cpp">
-      <Filter>Effects</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Effects\reverbsc.cpp">
       <Filter>Effects</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Effects\sampleratereducer.cpp">
@@ -103,31 +112,7 @@
     <ClCompile Include="..\Source\Effects\tremolo.cpp">
       <Filter>Effects</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\Filters\allpass.cpp">
-      <Filter>Filters</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Filters\atone.cpp">
-      <Filter>Filters</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Filters\biquad.cpp">
-      <Filter>Filters</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Filters\comb.cpp">
-      <Filter>Filters</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Filters\mode.cpp">
-      <Filter>Filters</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Filters\moogladder.cpp">
-      <Filter>Filters</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Filters\nlfilt.cpp">
-      <Filter>Filters</Filter>
-    </ClCompile>
     <ClCompile Include="..\Source\Filters\svf.cpp">
-      <Filter>Filters</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Filters\tone.cpp">
       <Filter>Filters</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Noise\clockednoise.cpp">
@@ -145,9 +130,6 @@
     <ClCompile Include="..\Source\PhysicalModeling\modalvoice.cpp">
       <Filter>PhysicalModeling</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\PhysicalModeling\pluck.cpp">
-      <Filter>PhysicalModeling</Filter>
-    </ClCompile>
     <ClCompile Include="..\Source\PhysicalModeling\resonator.cpp">
       <Filter>PhysicalModeling</Filter>
     </ClCompile>
@@ -156,9 +138,6 @@
     </ClCompile>
     <ClCompile Include="..\Source\PhysicalModeling\stringvoice.cpp">
       <Filter>PhysicalModeling</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Synthesis\blosc.cpp">
-      <Filter>Synthesis</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Synthesis\fm2.cpp">
       <Filter>Synthesis</Filter>
@@ -187,13 +166,7 @@
     <ClCompile Include="..\Source\Utility\dcblock.cpp">
       <Filter>Utility</Filter>
     </ClCompile>
-    <ClCompile Include="..\Source\Utility\jitter.cpp">
-      <Filter>Utility</Filter>
-    </ClCompile>
     <ClCompile Include="..\Source\Utility\metro.cpp">
-      <Filter>Utility</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Source\Utility\port.cpp">
       <Filter>Utility</Filter>
     </ClCompile>
     <ClCompile Include="..\Source\Effects\chorus.cpp">
@@ -205,15 +178,133 @@
     <ClCompile Include="$(BSP_ROOT)\STM32H7xxxx\StartupFiles\startup_stm32h750xx.c">
       <Filter>Device-specific files</Filter>
     </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\Source\Control\adenv.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Control\adsr.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Control\phasor.cpp">
+      <Filter>Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Drums\analogbassdrum.cpp">
+      <Filter>Drums</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Drums\analogsnaredrum.cpp">
+      <Filter>Drums</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Drums\hihat.cpp">
+      <Filter>Drums</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Drums\synthbassdrum.cpp">
+      <Filter>Drums</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Drums\synthsnaredrum.cpp">
+      <Filter>Drums</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Dynamics\crossfade.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Dynamics\limiter.cpp">
+      <Filter>Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Effects\autowah.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Effects\chorus.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Effects\decimator.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Effects\flanger.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Effects\overdrive.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Effects\phaser.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Effects\sampleratereducer.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Effects\tremolo.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Effects\wavefolder.cpp">
+      <Filter>Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Filters\ladder.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Filters\soap.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Filters\svf.cpp">
+      <Filter>Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Noise\clockednoise.cpp">
+      <Filter>Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Noise\grainlet.cpp">
+      <Filter>Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Noise\particle.cpp">
+      <Filter>Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PhysicalModeling\drip.cpp">
+      <Filter>PhysicalModeling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PhysicalModeling\KarplusString.cpp">
+      <Filter>PhysicalModeling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PhysicalModeling\modalvoice.cpp">
+      <Filter>PhysicalModeling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PhysicalModeling\resonator.cpp">
+      <Filter>PhysicalModeling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PhysicalModeling\stringvoice.cpp">
+      <Filter>PhysicalModeling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Sampling\granularplayer.cpp">
+      <Filter>Sampling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Synthesis\fm2.cpp">
+      <Filter>Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Synthesis\formantosc.cpp">
+      <Filter>Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Synthesis\oscillator.cpp">
+      <Filter>Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Synthesis\oscillatorbank.cpp">
+      <Filter>Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Synthesis\variablesawosc.cpp">
+      <Filter>Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Synthesis\variableshapeosc.cpp">
+      <Filter>Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Synthesis\vosim.cpp">
+      <Filter>Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Synthesis\zoscillator.cpp">
+      <Filter>Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utility\dcblock.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Utility\metro.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
     <ClInclude Include="..\Source\Control\adenv.h">
       <Filter>Control</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Control\adsr.h">
-      <Filter>Control</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\Control\line.h">
       <Filter>Control</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Control\phasor.h">
@@ -234,12 +325,6 @@
     <ClInclude Include="..\Source\Drums\synthsnaredrum.h">
       <Filter>Drums</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Dynamics\balance.h">
-      <Filter>Dynamics</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\Dynamics\compressor.h">
-      <Filter>Dynamics</Filter>
-    </ClInclude>
     <ClInclude Include="..\Source\Dynamics\crossfade.h">
       <Filter>Dynamics</Filter>
     </ClInclude>
@@ -249,22 +334,22 @@
     <ClInclude Include="..\Source\Effects\autowah.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Effects\bitcrush.h">
+    <ClInclude Include="..\Source\Effects\chorus.h">
       <Filter>Effects</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Effects\decimator.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Effects\fold.h">
+    <ClInclude Include="..\Source\Effects\flanger.h">
       <Filter>Effects</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Effects\overdrive.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Effects\pitchshifter.h">
+    <ClInclude Include="..\Source\Effects\phaser.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Effects\reverbsc.h">
+    <ClInclude Include="..\Source\Effects\pitchshifter.h">
       <Filter>Effects</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Effects\sampleratereducer.h">
@@ -273,31 +358,22 @@
     <ClInclude Include="..\Source\Effects\tremolo.h">
       <Filter>Effects</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Filters\allpass.h">
+    <ClInclude Include="..\Source\Effects\wavefolder.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Filters\fir.h">
       <Filter>Filters</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Filters\atone.h">
+    <ClInclude Include="..\Source\Filters\ladder.h">
       <Filter>Filters</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Filters\biquad.h">
+    <ClInclude Include="..\Source\Filters\onepole.h">
       <Filter>Filters</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Filters\comb.h">
-      <Filter>Filters</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\Filters\mode.h">
-      <Filter>Filters</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\Filters\moogladder.h">
-      <Filter>Filters</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\Filters\nlfilt.h">
+    <ClInclude Include="..\Source\Filters\soap.h">
       <Filter>Filters</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Filters\svf.h">
-      <Filter>Filters</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\Filters\tone.h">
       <Filter>Filters</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Noise\clockednoise.h">
@@ -321,26 +397,20 @@
     <ClInclude Include="..\Source\PhysicalModeling\drip.h">
       <Filter>PhysicalModeling</Filter>
     </ClInclude>
+    <ClInclude Include="..\Source\PhysicalModeling\KarplusString.h">
+      <Filter>PhysicalModeling</Filter>
+    </ClInclude>
     <ClInclude Include="..\Source\PhysicalModeling\modalvoice.h">
-      <Filter>PhysicalModeling</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\PhysicalModeling\pluck.h">
-      <Filter>PhysicalModeling</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Source\PhysicalModeling\PolyPluck.h">
       <Filter>PhysicalModeling</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\PhysicalModeling\resonator.h">
       <Filter>PhysicalModeling</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\PhysicalModeling\string.h">
-      <Filter>PhysicalModeling</Filter>
-    </ClInclude>
     <ClInclude Include="..\Source\PhysicalModeling\stringvoice.h">
       <Filter>PhysicalModeling</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Synthesis\blosc.h">
-      <Filter>Synthesis</Filter>
+    <ClInclude Include="..\Source\Sampling\granularplayer.h">
+      <Filter>Sampling</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Synthesis\fm2.h">
       <Filter>Synthesis</Filter>
@@ -378,7 +448,7 @@
     <ClInclude Include="..\Source\Utility\dsp.h">
       <Filter>Utility</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Utility\jitter.h">
+    <ClInclude Include="..\Source\Utility\looper.h">
       <Filter>Utility</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Utility\maytrig.h">
@@ -387,7 +457,189 @@
     <ClInclude Include="..\Source\Utility\metro.h">
       <Filter>Utility</Filter>
     </ClInclude>
-    <ClInclude Include="..\Source\Utility\port.h">
+    <ClInclude Include="..\Source\Utility\samplehold.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utility\smooth_random.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Control\line.cpp">
+      <Filter>daisysp-lgpl\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Dynamics\balance.cpp">
+      <Filter>daisysp-lgpl\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Dynamics\compressor.cpp">
+      <Filter>daisysp-lgpl\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Effects\bitcrush.cpp">
+      <Filter>daisysp-lgpl\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Effects\fold.cpp">
+      <Filter>daisysp-lgpl\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Effects\reverbsc.cpp">
+      <Filter>daisysp-lgpl\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Filters\allpass.cpp">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Filters\atone.cpp">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Filters\biquad.cpp">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Filters\comb.cpp">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Filters\mode.cpp">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Filters\moogladder.cpp">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Filters\nlfilt.cpp">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Filters\tone.cpp">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\PhysicalModeling\pluck.cpp">
+      <Filter>daisysp-lgpl\PhysicalModeling</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Synthesis\blosc.cpp">
+      <Filter>daisysp-lgpl\Synthesis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Utility\jitter.cpp">
+      <Filter>daisysp-lgpl\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\DaisySP-LGPL\Source\Utility\port.cpp">
+      <Filter>daisysp-lgpl\Utility</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\Control\adenv.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Control\adsr.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Control\phasor.h">
+      <Filter>Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Drums\analogbassdrum.h">
+      <Filter>Drums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Drums\analogsnaredrum.h">
+      <Filter>Drums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Drums\hihat.h">
+      <Filter>Drums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Drums\synthbassdrum.h">
+      <Filter>Drums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Drums\synthsnaredrum.h">
+      <Filter>Drums</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Dynamics\crossfade.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Dynamics\limiter.h">
+      <Filter>Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Effects\autowah.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Effects\decimator.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Effects\overdrive.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Effects\pitchshifter.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Effects\sampleratereducer.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Effects\tremolo.h">
+      <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Filters\svf.h">
+      <Filter>Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Noise\clockednoise.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Noise\dust.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Noise\fractal_noise.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Noise\grainlet.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Noise\particle.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Noise\whitenoise.h">
+      <Filter>Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PhysicalModeling\drip.h">
+      <Filter>PhysicalModeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PhysicalModeling\modalvoice.h">
+      <Filter>PhysicalModeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PhysicalModeling\resonator.h">
+      <Filter>PhysicalModeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PhysicalModeling\stringvoice.h">
+      <Filter>PhysicalModeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Synthesis\fm2.h">
+      <Filter>Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Synthesis\formantosc.h">
+      <Filter>Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Synthesis\harmonic_osc.h">
+      <Filter>Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Synthesis\oscillator.h">
+      <Filter>Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Synthesis\oscillatorbank.h">
+      <Filter>Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Synthesis\variablesawosc.h">
+      <Filter>Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Synthesis\variableshapeosc.h">
+      <Filter>Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Synthesis\vosim.h">
+      <Filter>Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Synthesis\zoscillator.h">
+      <Filter>Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utility\dcblock.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utility\delayline.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utility\dsp.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utility\maytrig.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Utility\metro.h">
       <Filter>Utility</Filter>
     </ClInclude>
     <ClInclude Include="..\Source\Utility\samplehold.h">
@@ -402,6 +654,66 @@
     </ClInclude>
     <ClInclude Include="..\Source\Effects\flanger.h">
       <Filter>Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\daisysp-lgpl.h">
+      <Filter>daisysp-lgpl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Control\line.h">
+      <Filter>daisysp-lgpl\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Dynamics\balance.h">
+      <Filter>daisysp-lgpl\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Dynamics\compressor.h">
+      <Filter>daisysp-lgpl\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Effects\bitcrush.h">
+      <Filter>daisysp-lgpl\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Effects\fold.h">
+      <Filter>daisysp-lgpl\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Effects\reverbsc.h">
+      <Filter>daisysp-lgpl\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Filters\allpass.h">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Filters\atone.h">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Filters\biquad.h">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Filters\comb.h">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Filters\mode.h">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Filters\moogladder.h">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Filters\nlfilt.h">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Filters\tone.h">
+      <Filter>daisysp-lgpl\Filters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\PhysicalModeling\pluck.h">
+      <Filter>daisysp-lgpl\PhysicalModeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\PhysicalModeling\PolyPluck.h">
+      <Filter>daisysp-lgpl\PhysicalModeling</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Synthesis\blosc.h">
+      <Filter>daisysp-lgpl\Synthesis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Utility\jitter.h">
+      <Filter>daisysp-lgpl\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DaisySP-LGPL\Source\Utility\port.h">
+      <Filter>daisysp-lgpl\Utility</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
